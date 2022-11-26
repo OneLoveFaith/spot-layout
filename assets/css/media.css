@@ -1,0 +1,31 @@
+@media (max-width: 991px) {
+    .plans .col-lg-4 {
+        margin-bottom: 30px;
+    } 
+}
+
+@media (max-width: 768px) {
+
+    #mobile-menu {
+        display: block;
+    }
+
+    .collapse .navbar-nav button {
+        width: 100%;
+        text-align: left;
+    }
+
+    #main-menu {
+        display: none;
+    }
+
+    .banner h1 {
+        font-size: 50px;
+    }
+
+    .banner h2 {
+        font-size: 30px;
+    }
+
+
+}

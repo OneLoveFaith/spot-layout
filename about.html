@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./assets/css/fonts.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/media.css">
+</head>
+<body>
+    <header class="fixed-top">
+        <div class="container">
+            <div class="row d-flex justify-content-between navbar">
+                <a href="index.html" class="col-auto navbar-brand">LOGO</a>
+                <div id="main-menu" class="col-auto">
+                    <ul class="navbar-nav d-flex flex-row">
+                        <li class="nav-item">
+                            <a href="./index.html" class="nav-link">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./about.html" class="nav-link active text-white">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./services.html" class="nav-link">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./works.html" class="nav-link">WORK</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="btn nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="fa fa-envelope-o"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+                <nav id="mobile-menu" class="navbar navbar-dark col-auto">
+                    <div class="container-fluid">
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                    </div>
+                </nav>
+                <div class="collapse" id="navbarToggleExternalContent">
+                    <div class="p-4">
+                        <ul class="navbar-nav d-flex">
+                            <li class="nav-item">
+                                <a href="./index.html" class="nav-link">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./about.html" class="nav-link active text-white">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./services.html" class="nav-link">SERVICES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="./works.html" class="nav-link">WORK</a>
+                            </li>
+                            <li class="nav-item">
+                                <button type="button" class="btn nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <i class="fa fa-envelope-o"></i>
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="blue">
+        <div class="container">
+            <div class="row text-center">
+                <h4 class="subtitle text-white">LEARN MORE ABOUT US</h4>
+                <p class="text-white">WE ARE COOL PEOPLE</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="workers">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-3">
+                    <img class="img-circle" src="./assets/img/pic.jpg" width="110" height="110" alt="">
+                    <h4 class="subtitle">Frank Lampard</h4>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, 
+                        but the majority have suffered alteration in some form.
+                    </p>
+                    <p>
+                        <a href="#">@Frank_BlackTie</a>
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <img class="img-circle" src="./assets/img/pic2.jpg" width="110" height="110" alt="">
+                    <h4 class="subtitle">David Wright</h4>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, 
+                        but the majority have suffered alteration in some form.
+                    </p>
+                    <p>
+                        <a href="#">@David_BlackTie</a>
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <img class="img-circle" src="./assets/img/pic3.jpg" width="110" height="110" alt="">
+                    <h4 class="subtitle">Mark Milestone</h4>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, 
+                        but the majority have suffered alteration in some form.
+                    </p>
+                    <p>
+                        <a href="#">@Mark_BlackTie</a>
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <img class="img-circle" src="./assets/img/pic4.jpg" width="110" height="110" alt="">
+                    <h4 class="subtitle">Tania Tissen</h4>
+                    <p>
+                        There are many variations of passages of Lorem Ipsum available, 
+                        but the majority have suffered alteration in some form.
+                    </p>
+                    <p>
+                        <a href="#">@Tania_BlackTie</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <div class="row text-center">
+                <h4 class="subtitle">OUR SKILLS</h4>
+                <div class="col-lg-3">
+                    <canvas id="canvas" height="130" width="130" style="width: 130px; height: 130px;"></canvas>
+                    <p><b>Design &amp; Brand</b></p>
+                    <p>
+                        <small>
+                            There are many variations of passages of Lorem Ipsum available, 
+                            but the majority have suffered alteration in some form.
+                        </small>
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <canvas id="canvas2" height="130" width="130" style="width: 130px; height: 130px;"></canvas>
+                    <p><b>Web Development</b></p>
+                    <p>
+                        <small>
+                            There are many variations of passages of Lorem Ipsum available, 
+                            but the majority have suffered alteration in some form.
+                        </small>
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <canvas id="canvas3" height="130" width="130" style="width: 130px; height: 130px;"></canvas>
+                    <p><b>Seo Services</b></p>
+                    <p>
+                        <small>
+                            There are many variations of passages of Lorem Ipsum available, 
+                            but the majority have suffered alteration in some form.
+                        </small>
+                    </p>
+                </div>
+                <div class="col-lg-3">
+                    <canvas id="canvas4" height="130" width="130" style="width: 130px; height: 130px;"></canvas>
+                    <p><b>Printing</b></p>
+                    <p>
+                        <small>
+                            There are many variations of passages of Lorem Ipsum available, 
+                            but the majority have suffered alteration in some form.
+                        </small>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="design">
+        <div class="container">
+            <div class="row text-center d-flex justify-content-center">
+                <div class="col-lg-8">
+                    <h4 class="subtitle">WE ARE STORYTELLERS. BRANDS ARE OUR SUBJECTS. DESIGN IS OUR VOICE.</h4>
+                    <p>
+                        We believe ideas come from everyone, everywhere. At BlackTie, everyone within 
+                        our agency walls is a designer in their own right. And there are a few principles 
+                        we believe—and we believe everyone should believe—about our design craft. These truths
+                        drive us, motivate us, and ultimately help us redefine the power of design.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="social">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-auto">
+                    <a href="#">
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href="#">
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                </div>
+                <div class="col-auto">
+                    <a href="#">
+                        <i class="fa fa-dribbble"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="conatiner">
+                <p>
+                    © Copyrights <strong>Spot</strong>. All Rights Reserved
+                </p>
+
+                <div class="credits">
+                    Created with Spot template by <a href="https://templatemag.com/">TemplateMag</a>
+                </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title subtitle" id="exampleModalLabel">contact us</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p class="text-center">We are available 24/7, so don't hesitate to contact us.</p>
+                <p class="text-center">
+                Somestreet Ave, 987
+                <br> 
+                London, UK.
+                <br> 
+                +44 8948-4343
+                <br> 
+                contact@example.com
+                </p>
+                <form class="needs-validation" novalidate>
+                    <div class="mb-3">
+                        <label for="validationCustom01" class="form-label">Your name</label>
+                        <input type="name" class="form-control" id="validationCustom01" placeholder="Your name" required>
+                        <div class="invalid-feedback">
+                            Please enter at least 4 chars
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="validationEmail" class="form-label">Your Email</label>
+                        <input type="email" class="form-control" placeholder="Your Email" id="validationEmail" aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                            Please enter a valid email
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="validationCustom02" class="form-label">Your name</label>
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Your Subject" required>
+                        <div class="invalid-feedback">
+                            Please enter at least 8 chars of subject
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message-text" class="col-form-label">Your Message</label>
+                        <textarea class="form-control" id="message-text" required></textarea>
+                        <div class="invalid-feedback">
+                            Please write something for us
+                        </div>
+                    </div>
+                    <div class="col-12 text-center">
+                        <button class="btn btn-primary" type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/jquery-3.6.1.min.js"></script>
+    <script src="./assets/js/chart.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

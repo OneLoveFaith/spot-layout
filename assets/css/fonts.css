@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'LatoLight';
+    src: url(../fonts/Lato-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'LatoBold';
+    src: url(../fonts/Lato-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'LatoExBold';
+    src: url(../fonts/Lato-ExtraBold.ttf);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'RalewayLight';
+    src: url(../fonts/Raleway-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'RalewayBold';
+    src: url(../fonts/Raleway-Bold.ttf);
+    font-weight: 700;
+}

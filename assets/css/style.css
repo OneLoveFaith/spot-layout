@@ -1,0 +1,450 @@
+body {
+    font-family: 'LatoLight';
+    font-weight: 300;
+    margin-top: 81px;
+}
+
+header {
+    background: #2d2d2d;
+    font-family: 'LatoExBold';
+    font-weight: 800;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    line-height: 28px;
+}
+
+i {
+    font-style: normal;
+}
+
+strong {
+    font-family: 'LatoBold';
+    font-weight: 700;
+    color: #555;
+}
+
+
+
+#mobile-menu {
+    display: none;
+}
+
+.navbar-nav>.nav-item>a {
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #9d9d9d;
+    transition: all 0.3s;
+}
+
+.navbar-nav>.nav-item>a:hover {
+    color: white;
+}
+
+.navbar-nav>.nav-item>button {
+    padding: 15px;
+    font-size: 14px;
+    font-weight: 800;
+    color: #9d9d9d;
+    transition: all 0.3s;
+    border: none;
+}
+
+.navbar-nav>.nav-item>button:hover {
+    color: white;
+}
+
+.active {
+    background: #ff7878;
+    transition: all 0.3s;
+}
+
+.active:hover {
+    background: black;
+}
+
+.navbar-brand {
+    cursor: pointer;
+    color: #ff7878;
+    
+    font-size: 24px;
+    transition: all 0.3s;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+
+
+.banner {
+    background: url(../img/header-bg.jpg) no-repeat center top;
+    padding-top: 20px;
+    min-height: 500px;
+    width: 100%;
+    background-position: center center;
+    color: white;
+    font-family: 'RalewayLight';
+    font-weight: 300;
+    background-size: cover;
+}
+
+.banner h1 {
+    font-size: 70px;
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.banner h1>b {
+    font-family: 'RalewayBold';
+    font-weight: 700;
+}
+
+.banner h2 {
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'RalewayBold';
+    font-weight: 700;
+}
+
+
+
+.advantages {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color: #f2f2f2;
+}
+
+.advantages .col-lg-4 i {
+    color: #ff7878;
+    font-size: 30px;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-family: 'RalewayBold';
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.works {
+    background: #e0e0e0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.works-item {
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+}
+
+.works-item:hover {
+    transform: rotateZ(-10deg);
+}
+
+
+
+.about {
+    background-color: #f2f2f2;
+    padding-top: 70px;
+}
+
+.about .col-lg-10 {
+    margin-top: 60px;
+}
+
+.about img {
+    max-width: 100%;
+}
+
+
+
+.clients {
+    background: #ebebeb;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+
+
+.design {
+    background-color: #ff7878;
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+
+
+.social {
+    background: #2d2d2d;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.social i {
+    font-size: 30px;
+    color: #bdbdbd;
+    transition: all 0.3s;
+    padding: 10px;
+}
+
+.social i:hover {
+    color: #ff7878;
+}
+
+
+
+.blue {
+    background: #3498db;
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+
+
+
+.plans {
+    background: #e0e0e0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.price {
+    background: #222;
+    color: white;
+    padding: 40px 20px 30px 20px;
+    font-family: 'LatoBold';
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+}
+
+.price-title {
+    font-size: 25px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    
+}
+
+.price-amount {
+    font-size: 108px;
+    letter-spacing: -4px;
+}
+
+.price sup {
+    font-size: 24px;
+    top: -2.5em;
+}
+
+.price small {
+    font-size: 18px;
+}
+
+.special-label {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #1abc9c;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 3px 0;
+}
+
+.plans ul {
+    list-style: none;
+    background: #eee;
+    padding-left: 0px;
+    margin: 0;
+}
+
+.plans ul>li {
+    border-bottom: solid 1px #e1e1e1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.price-signup {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 10px;
+    color: white;
+    background: #1abc9c;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-family: 'LatoBold';
+    display: block;
+}
+
+.price-signup:hover {
+    background-color: #ff7878;
+    color: #fff;
+}
+
+
+
+.work-desc {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color: #f2f2f2;
+}
+
+.work-desc p {
+    color: #555;
+}
+
+.work-desc i {
+    color: #ff7878;
+}
+
+.work-desc a {
+    text-decoration: none;
+    color: #ff7878;
+    transition: all 0.3s ease;
+}
+
+.work-desc a:hover {
+    color: #555;
+}
+
+.work-desc .row {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.work-desc .row:nth-child(1) {
+    margin-top: 0;
+}
+
+.work-desc .row:nth-child(3) {
+    margin-bottom: 0;
+}
+
+.line {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+
+.workers {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color: #f2f2f2;
+}
+
+.workers p {
+    color: #555;
+}
+
+.workers a {
+    text-decoration: none;
+    color: #ff7878;
+    transition: all 0.3s ease;
+}
+
+.workers a:hover {
+    color: #555;
+}
+
+.workers img {
+    border-radius: 50%;
+}
+
+
+
+
+.skills {
+    background: #e0e0e0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.skills b {
+    font-weight: 700;
+}
+
+
+
+
+.credits {
+    color: #999;
+}
+
+.credits a {
+    text-decoration: none;
+    color: #ff7878;
+    transition: all 0.5s;
+}
+
+.credits a:hover {
+    color: #999;
+}
+
+
+.modal-body {
+    background: #f2f2f2;
+}
+
+
+.modal-body p {
+    color: #555;
+}
+
+.modal-header {
+    background: #bdbdbd;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+form label {
+    font-family: 'LatoBold';
+     font-weight: 700;
+     color: #999;
+}
+
+form .btn-primary {
+    font-size: 14px;
+    background: #d9534f;
+    border: none;
+    padding: 10px 30px;
+}
+
+form .btn-primary:hover {
+    background: #e25853;
+}
+
+form .btn-primary {
+    --bs-btn-active-bg: #e25853;
+}
+
+
+
+footer {
+    background: #222222;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+footer p {
+    margin-bottom: 5px;
+}
